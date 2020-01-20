@@ -1,1 +1,12 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
 body {font:18px/1.25 'Arial', sans-serif; }
+
+/* Set all body content so border-box */
+body * {
+    box-sizing: border-box;
+}
